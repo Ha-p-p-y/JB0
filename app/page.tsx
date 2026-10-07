@@ -17,15 +17,16 @@ export default function Home() {
 
         <p className="mt-6 max-w-2xl text-gray-400">
           I'm a curious and happy Computer Science student at
-          <span className="text-white font-semibold"> MITS Kochi</span>.
-          I enjoy building projects with Python and Artificial Intelligence,
-          and my goal is to become an AI Engineer.
+          <span className="text-white font-semibold"> MITS Kochi</span>. I enjoy
+          building projects with Python and Artificial Intelligence, and my goal
+          is to become an AI Engineer.
         </p>
 
         <div className="mt-8 flex gap-4">
           <a
             href="https://github.com/Ha-p-p-y"
             target="_blank"
+            rel="noopener noreferrer"
             className="rounded-xl bg-blue-600 px-6 py-3 font-semibold transition hover:bg-blue-700"
           >
             GitHub
@@ -85,9 +86,7 @@ export default function Home() {
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           <div className="rounded-2xl border border-gray-700 p-6">
-            <h3 className="text-xl font-semibold">
-              Python Programs
-            </h3>
+            <h3 className="text-xl font-semibold">Python Programs</h3>
 
             <p className="mt-3 text-gray-400">
               A collection of Python programs covering algorithms,
@@ -96,9 +95,7 @@ export default function Home() {
           </div>
 
           <div className="rounded-2xl border border-gray-700 p-6">
-            <h3 className="text-xl font-semibold">
-              GitHub Repository
-            </h3>
+            <h3 className="text-xl font-semibold">GitHub Repository</h3>
 
             <p className="mt-3 text-gray-400">
               Explore my coding journey and projects on GitHub.
@@ -107,6 +104,7 @@ export default function Home() {
             <a
               href="https://github.com/Ha-p-p-y"
               target="_blank"
+              rel="noopener noreferrer"
               className="mt-4 inline-block text-blue-400 hover:underline"
             >
               Visit GitHub →
@@ -118,9 +116,7 @@ export default function Home() {
       {/* Goal */}
       <section className="bg-slate-900 py-20">
         <div className="mx-auto max-w-5xl px-6">
-          <h2 className="text-3xl font-bold">
-            Career Goal
-          </h2>
+          <h2 className="text-3xl font-bold">Career Goal</h2>
 
           <p className="mt-6 text-gray-300">
             My ambition is to become an AI Engineer, building intelligent
@@ -134,21 +130,20 @@ export default function Home() {
       <section className="py-20 text-center">
         <h2 className="text-3xl font-bold">Let's Connect</h2>
 
-        <p className="mt-6 text-gray-400">
-          GitHub:
-        </p>
+        <p className="mt-6 text-gray-400">GitHub:</p>
 
         <a
           href="https://github.com/Ha-p-p-y"
           target="_blank"
+          rel="noopener noreferrer"
           className="text-xl text-blue-400 hover:underline"
         >
           github.com/Ha-p-p-y
         </a>
 
-        <p className="mt-12 text-sm text-gray-500">
-          © {new Date().getFullYear()} Joel • Built with Next.js & Tailwind CSS
-        </p>
+        <footer className="mt-12 text-center text-sm text-gray-500">
+          <p>© 2026 Joel | Built with Next.js &amp; Tailwind CSS</p>
+        </footer>
       </section>
     </main>
   );
